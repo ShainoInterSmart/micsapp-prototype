@@ -9,7 +9,7 @@ body.is-login { background: #fff; }
   position: relative; overflow: hidden;
   background-color: var(--brand-navy-900);
   background-image:
-    linear-gradient(180deg, rgba(0, 42, 27, 0.90) 0%, rgba(0, 50, 32, 0.62) 34%, rgba(0, 60, 38, 0.08) 58%, rgba(0, 30, 19, 0.30) 78%, rgba(0, 25, 16, 0.85) 100%),
+    linear-gradient(180deg, rgba(0, 42, 27, 0.78) 0%, rgba(0, 50, 32, 0.15) 18%, rgba(0, 50, 32, 0.05) 38%, rgba(0, 42, 27, 0.55) 58%, rgba(0, 30, 19, 0.88) 78%, rgba(0, 25, 16, 0.95) 100%),
     url("../assets/images/ibclass2025.jpg");
   background-size: cover; background-position: center 30%;
   color: #fff; display: flex; flex-direction: column; padding: 40px 48px;
@@ -21,7 +21,7 @@ body.is-login { background: #fff; }
 .wordmark.lg { height: 42px; padding: 0 12px; font-size: 15px; }
 .lb-name { font-size: 17px; font-weight: 750; letter-spacing: 0.03em; }
 .lb-sub { font-size: 12.5px; color: rgba(255, 255, 255, 0.85); }
-.login-brand-body { margin: 56px 0 auto; max-width: 520px; }
+.login-brand-body { margin: auto 0 0; padding-bottom: 36px; max-width: 520px; }
 .lb-eyebrow { font-size: 12px; font-weight: 650; text-transform: uppercase; letter-spacing: 0.1em; color: var(--brand-gold); }
 .login-brand h1 { color: #fff; font-size: 34px; line-height: 1.18; letter-spacing: -0.025em; font-weight: 700; margin-top: 14px; }
 .login-brand-body > p { margin-top: 16px; font-size: 15px; line-height: 1.6; color: rgba(255, 255, 255, 0.9); }
