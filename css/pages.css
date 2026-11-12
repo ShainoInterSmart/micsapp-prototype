@@ -46,6 +46,7 @@ body.is-login { background: #fff; }
 .da-text { display: flex; flex-direction: column; min-width: 0; padding-right: 14px; }
 .da-role { font-size: 13px; font-weight: 650; color: var(--text); }
 .da-name { font-size: 12px; color: var(--text-3); margin-top: 1px; }
+.da-email { font-family: var(--font-mono); font-size: 11.5px; color: var(--brand-navy-700); margin-top: 3px; word-break: break-all; }
 .da-desc { font-size: 11.5px; color: var(--text-muted); margin-top: 6px; line-height: 1.4; }
 .da-arrow { position: absolute; right: 10px; top: 14px; width: 15px; height: 15px; color: var(--text-faint); transition: transform var(--dur), color var(--dur); }
 .demo-account:hover .da-arrow { color: var(--brand-navy-700); transform: translateX(2px); }

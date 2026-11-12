@@ -34,9 +34,9 @@
             '</form>' +
             '<div class="login-divider"><span>Or sign in with a demo account</span></div>' +
             '<div class="demo-accounts">' + users.map(function (u) {
-              return '<button type="button" class="demo-account" data-email="' + u.email + '"><span class="da-avatar">' + ui.avatar(u.name) + '</span><span class="da-text"><span class="da-role">' + ui.esc(u.roleLabel.split(' · ')[0]) + '</span><span class="da-name">' + ui.esc(u.name) + '</span><span class="da-desc">' + ui.esc(u.desc) + '</span></span>' + ui.icon('arrow-right', 'da-arrow') + '</button>';
+              return '<button type="button" class="demo-account" data-email="' + u.email + '"><span class="da-avatar">' + ui.avatar(u.name) + '</span><span class="da-text"><span class="da-role">' + ui.esc(u.roleLabel.split(' · ')[0]) + '</span><span class="da-name">' + ui.esc(u.name) + '</span><span class="da-email">' + ui.esc(u.email) + '</span><span class="da-desc">' + ui.esc(u.desc) + '</span></span>' + ui.icon('arrow-right', 'da-arrow') + '</button>';
             }).join('') + '</div>' +
-            '<p class="login-note">' + ui.icon('info', 'icon-sm') + '<span>Simulated sign-in for demonstration. Password for all demo accounts: <strong>' + MICS.auth.password + '</strong>. No real credentials or personal data are used.</span></p>' +
+            '<p class="login-note">' + ui.icon('info', 'icon-sm') + '<span>Simulated sign-in for demonstration. Click a card above, or type its email address with the password <strong>' + MICS.auth.password + '</strong>. No real credentials or personal data are used.</span></p>' +
           '</div>' +
           '<div class="login-foot">MICSAPP prototype · Designed by Inter Smart for Morgan International Community School</div>' +
         '</section></div>';
